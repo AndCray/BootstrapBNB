@@ -1,0 +1,49 @@
+/* General styles for mobile and tablet views */
+@media (max-width: 768px) {
+    /* Hides the map container on tablets and phones */
+    .map-container {
+        display: none;
+    }
+
+    /* Adjust the container to ensure proper padding and spacing */
+    .container {
+        padding: 10px;
+    }
+
+    /* Navigation links in a more vertical, mobile-friendly layout */
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .boxed-link {
+        margin-bottom: 10px; /* Add some spacing between links */
+    }
+
+    /* Adjust carousel images for smaller devices */
+    .carousel-inner img {
+        max-width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 576px) {
+    /* Further adjustments for smaller devices */
+    .container {
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller font size for headers */
+    }
+
+    .form-label, .form-control, .btn {
+        font-size: 0.9rem; /* Adjust font size for form elements */
+    }
+
+    /* Adjust carousel images for even smaller devices */
+    .carousel-inner img {
+        max-width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+}

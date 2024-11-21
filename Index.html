@@ -10,14 +10,110 @@
     <!-- Link to Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body class="page-back">
+	<nav>
+		<a href="Index.html" class="boxed-link link-text">Home Page</a>
+		<a href="ContactUs.html" class="boxed-link link-text">Contact Us</a>
+	</nav>
 
-    <!-- Your content goes here -->
-<h1></h1>
-<p>B&B Stay Benefits: Indoor Pool, 5 Bed, 3 Bath, Pet Friendly, Large fenced off backyard about 1/2 acre</p>
-<h4>Prices: 1 Night: $150, 2 Nights: $275, 3 Nights: $350, 4 Nights: $425, 5 Nights: $500, 7 Nights: $550</h4>
-<h4>Pet Deposit (if you are bringing your pet, will get back if no damage is caused): $75</h4>
-<h5>Will contact if any problems arise before your stay if it is already scheduled.</h5>
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel"> 
+	<div class="carousel-indicators"> 
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> 
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> 
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button> 
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button> 
+	</div> 
+	<div class="carousel-inner"> 
+		<div class="carousel-item active"> 
+			<img src="HouseFront.JPG" class="d-block w-100" alt="House Front"> 
+		</div> 
+		<div class="carousel-item"> 
+			<img src="LivingRoom.JPG" class="d-block w-100" alt="Living Room"> 
+		</div> 
+		<div class="carousel-item"> 
+			<img src="Kitchen.JPG" class="d-block w-100" alt="Kitchen"> 
+		</div> 
+		<div class="carousel-item"> 
+			<img src="BackYard.JPG" class="d-block w-100" alt="Back Yard"> 
+		</div> 
+		<div class="carousel-item"> 
+			<img src="Master.JPG" class="d-block w-100" alt="Master Bedroom"> 
+		</div> 
+	</div> 
+	<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"> 
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+		<span class="visually-hidden">Previous</span> 
+	</button> 
+	<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"> 
+		<span class="carousel-control-next-icon" aria-hidden="true"></span> 
+		<span class="visually-hidden">Next</span> 
+	</button> 
+</div>
+<div class="flex-container table table-striped table-bordered table-responsive"> 
+	<div class="flex-row header"> 
+		<div class="flex-column">Air BnB</div> 
+	</div> 
+	<div class="flex-row"> 
+		<div class="flex-column">Pool:</div> 
+		<div class="flex-column">Indoor Pool</div> 
+	</div> 
+	<div class="flex-row">
+		<div class="flex-column">Bed:</div> 
+		<div class="flex-column">3</div> 
+	</div> 
+	<div class="flex-row">
+		<div class="flex-column">Bath:</div> 
+		<div class="flex-column">2</div>
+	</div> 
+	<div class="flex-row"> 
+		<div class="flex-column">Pet Friendly:</div> 
+		<div class="flex-column">Yes</div> 
+	</div>
+	<div class="flex-row"> 
+		<div class="flex-column">Backyard:</div>
+		<div class="flex-column">Large fenced off backyard about 1/2 acre</div> 
+	</div> 
+</div>
+<div class="flex-container table table-bordered table-responsive">
+	<div class="flex-row header"> 
+		<div class="flex-column">Number Of Nights</div>
+		<div class="flex-column">Prices</div>
+	</div> 
+	<div class="flex-row">
+		<div class="flex-column">1 Night:</div> 
+		<div class="flex-column">$150</div> 
+	</div>
+	<div class="flex-row">
+		<div class="flex-column">2 Nights:</div>
+		<div class="flex-column">$275</div> 
+	</div>
+	<div class="flex-row"> 
+		<div class="flex-column">3 Nights:</div> 
+		<div class="flex-column">$350</div> 
+	</div> 
+	<div class="flex-row">
+		<div class="flex-column">4 Nights:</div>
+		<div class="flex-column">$425</div>
+	</div> 
+	<div class="flex-row">
+		<div class="flex-column">5 Nights:</div> 
+		<div class="flex-column">$500</div> 
+	</div>
+	<div class="flex-row">
+		<div class="flex-column">7 Nights:</div> 
+		<div class="flex-column">$575</div> 
+	</div>
+</div>
+
+<div class="container mt-4"> 
+	<h4>Pet Deposit (if you are bringing your pet, will get back if no damage is caused): $75</h4> 
+	<h5>Will contact if any problems arise before your stay, if it is already scheduled.</h5> 
+	<p>1,148 sq ft inside<br>2 garage spaces<br>Has A/C<br>7,841 sq ft lot<br>Location: 3642 W Madison St, Springfield, MO 65802</p> 
+	<div class="embed-responsive embed-responsive-4by3 mb-4 iframe-container"> 
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.9452136710497!2d-93.3530263!3d37.2015307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf61714b8d0b3d%3A0x3779824267945d43!2s3642%20W%20Madison%20St%2C%20Springfield%2C%20MO%2065802!5e0!3m2!1sen!2sus!4v1732133888361!5m2!1sen!2sus" width="350px" height="200px" style="border:3;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe> 
+	</div>
+</div>
 <!--Imgs on a carousel showing pictures of the house and some of the rooms inside-->
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
